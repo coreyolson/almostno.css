@@ -1,0 +1,259 @@
+/**
+ * Almost Nothing CSS
+ * ------------------------------------------------
+ * Minimalist CSS
+ *
+ * @copyright   Copyright (c) 2019 - 2021 Corey Olson
+ * @license     https://opensource.org/licenses/MIT
+ *
+ * // ########################################################################################
+ *
+ * Basic CSS Reset, Grid and Helpers.
+ */
+html {
+  font: 62.5%/1.2 sans-serif;
+}
+
+body {
+  font: 1.5em/1.6 sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+/**
+/// HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1rem;
+}
+
+h1 {
+  font: 300 4rem/1.1 sans-serif;
+}
+
+h2 {
+  font: 300 3.6rem/1.2 sans-serif;
+}
+
+h3 {
+  font: 300 3rem/1.3 sans-serif;
+}
+
+h4 {
+  font: 300 2.4rem/1.4 sans-serif;
+}
+
+h5 {
+  font: 300 1.8rem/1.5 sans-serif;
+}
+
+h6 {
+  font: 300 1.5rem/1.6 sans-serif;
+}
+
+/**
+/// LINKS */
+a {
+  color: #7083CC;
+}
+
+a:hover {
+  color: #6C7080;
+}
+
+/**
+/// TABLES */
+td,
+th {
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+/**
+/// MARKUP */
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/**
+/// FORMS */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: 100%/1.2 sans-serif;
+  text-transform: none;
+  margin: 0;
+}
+
+/**
+/// CONTAINER */
+.t {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 425px) {
+  .t {
+    width: 85%;
+    padding: 0;
+  }
+}
+/**
+/// ROW */
+.r > div {
+  float: left;
+}
+
+/**
+/// GRID, COLUMNS */
+@media (min-width: 780px) {
+  .c1 {
+    width: 4.7%;
+  }
+
+  .c2 {
+    width: 13.4%;
+  }
+
+  .c3 {
+    width: 22%;
+  }
+
+  .c4 {
+    width: 30.7%;
+  }
+
+  .c5 {
+    width: 39.4%;
+  }
+
+  .c6 {
+    width: 48%;
+  }
+
+  .c7 {
+    width: 56.7%;
+  }
+
+  .c8 {
+    width: 65.4%;
+  }
+
+  .c9 {
+    width: 74%;
+  }
+
+  .c10 {
+    width: 82.7%;
+  }
+
+  .c11 {
+    width: 91.4%;
+  }
+
+  .c12 {
+    width: 100%;
+  }
+}
+/**
+/// HELPERS - MARGIN */
+.m0 {
+  margin: 0;
+}
+
+.m1 {
+  margin: 1rem;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+/**
+/// HELPERS - PADDING */
+.p0 {
+  padding: 0;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.pt1 {
+  padding-top: 1rem;
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+}
+
+/**
+/// HELPERS - ALIGNMENT */
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+/**
+/// HELPERS - PULLS */
+.pr {
+  float: right;
+}
+
+.pl {
+  float: left;
+}
+
+/**
+/// HELPERS - VERTICAL ALIGNMENT */
+.vm {
+  vertical-align: middle;
+}
+
+/**
+/// HELPERS - CLEAR */
+.clear,
+.r:after,
+.t:after {
+  content: "";
+  display: table;
+  clear: both;
+}
